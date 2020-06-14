@@ -5,7 +5,7 @@ import "./App.css";
 function App() {
   console.log("Visualizando cambio");
 
-  var carlos = "Humberto";
+  var carlos = "Humberto, segundo cambio";
   //Matriz
   //====================================================================================
   console.log(
@@ -328,6 +328,17 @@ function App() {
   var numbers = [4, 9, 16, 25];
   var x = numbers.map(Math.sqrt);
   console.log(x);
+
+  //así lo haría
+
+  numbers.map((data, index) => {
+    console.log(
+      `Estamos en el elemento ${index}, su valor es ${data} y su raiz cuadrada es ${Math.sqrt(
+        data
+      )}`
+    );
+  });
+
   //====================================================================================
   console.log(
     "==================================pop()================================="
@@ -586,12 +597,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          {" "}
-          Edit <code> src / App.js </code> and save to reload.{" "}
-        </p>
         -1 La variable es {num}
-        <h1>Mostrando el nombre de {carlos} </h1>
+        <strong>Mostrando el nombre de {carlos} </strong>
       </header>
     </div>
   );
