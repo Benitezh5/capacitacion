@@ -328,6 +328,17 @@ function App() {
   var numbers = [4, 9, 16, 25];
   var x = numbers.map(Math.sqrt);
   console.log(x);
+
+  //así lo haría
+
+  numbers.map((data, index) => {
+    console.log(
+      `Estamos en el elemento ${index}, su valor es ${data} y su raiz cuadrada es ${Math.sqrt(
+        data
+      )}`
+    );
+  });
+
   //====================================================================================
   console.log(
     "==================================pop()================================="
