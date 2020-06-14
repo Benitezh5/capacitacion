@@ -7,7 +7,7 @@ function App() {
   console.log("Visualizando cambio");
 
  
-    
+    var carlos ="Carlos";
     //Matriz
     //====================================================================================
     console.log("================================= Matriz =====================================");
@@ -522,6 +522,7 @@ function App() {
 
         <p> Edit <code> src / App.js </code> and save to reload. </p>
        -1 La variable es {num}  
+       <h1>Mostrando el nombre de {carlos} </h1> 
 
 
       
