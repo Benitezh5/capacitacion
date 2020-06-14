@@ -3,6 +3,10 @@ import React from 'react';
 import './App.css';
 
 function App() {
+
+  console.log("Visualizando cambio");
+
+  console.log("probando 2");
     
     //Matriz
     //====================================================================================
