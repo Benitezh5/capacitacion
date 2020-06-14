@@ -6,7 +6,7 @@ function App() {
 
   console.log("Visualizando cambio");
 
-  console.log("probando 2");
+ 
     
     //Matriz
     //====================================================================================
