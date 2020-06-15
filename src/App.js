@@ -14,6 +14,12 @@ function App() {
     var num = "Hola Carlos";
     var matriz = [1, 3, 3, 4, 5, 6, 7, 8, 9, 10];
     console.log(matriz);
+
+    var numbers = [4, 9, 16, 25];
+    var x = numbers.map(Math.sqrt);
+    console.log(x);
+
+   
     //====================================================================================
     
     console.log("================================== Concat ===================================");
@@ -27,6 +33,8 @@ function App() {
     var stale = ["Emil", "Tobias", "Linus"];
     var children = hege.concat(stale); 
     console.log(children);
+
+   
 
      //====================================================================================
     console.log("================================constructor===================================");
@@ -113,6 +121,9 @@ function App() {
     const result = libros.filter(libros => libros.length > 6);
 
     console.log(result);
+
+
+
 
     //====================================================================================
     console.log("==================================find()=================================");
@@ -284,10 +295,23 @@ function App() {
     var numbers = [4, 9, 16, 25];
     var x = numbers.map(Math.sqrt);
     console.log(x);
+
+    //////////////carlos
+    numbers.map((data, index) => {
+      console.log(
+        `Estamos en el elemento ${index}, su valor es ${data} y su raiz cuadrada es ${Math.sqrt(
+          data
+        )}`
+      );
+    });
+
+
     //====================================================================================
     console.log("==================================pop()=================================");
     var fruits5 = ["Banana", "Orange", "Apple", "Mango"];
     console.log(fruits5.pop());
+
+   
     //====================================================================================
     //console.log("==================================prototype()=================================");
     /*nstructor prototipo permite agregar nuevas propiedades y métodos al objeto Array().
