@@ -2,7 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 //import App from './App';
-import Main from './views/main';
+//import Main from './views/main';
+//import Maps from './components/maps';
+//import Filter from './components/filter';
+import Reduce from './components/reduce';
 
 import * as serviceWorker from './serviceWorker';
 
@@ -10,7 +13,12 @@ ReactDOM.render(
 
     <React.StrictMode >
 
-    <Main/>
+   {/* <App/> */}
+   {/* <Main/> */}
+    {/* <Maps/> */}
+     {/* <Filter/> */}
+     <Reduce/>
+
     
 
     </React.StrictMode>,
