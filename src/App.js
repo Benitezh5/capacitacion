@@ -1,11 +1,27 @@
-import React from 'react';
+import React from "react";
 //import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
-
   console.log("Visualizando cambio");
 
+<<<<<<< HEAD
+  var carlos = "Humberto, segundo cambio";
+  //Matriz
+  //====================================================================================
+  console.log(
+    "================================= Matriz ====================================="
+  );
+  var num = "Hola Carlos";
+  var matriz = [1, 3, 3, 4, 5, 6, 7, 8, 9, 10];
+  console.log(matriz);
+  //====================================================================================
+
+  console.log(
+    "================================== Concat ==================================="
+  );
+  /* 
+=======
  
     var carlos ="Carlos";
     //Matriz
@@ -24,21 +40,30 @@ function App() {
     
     console.log("================================== Concat ===================================");
     /* 
+>>>>>>> release/Componentes
     Definición y uso
     El método se utiliza para unir dos o más matrices.concat()
     Este método no cambia las matrices existentes, pero devuelve una nueva matriz, que contiene los valores de las matrices unidas.
     */
 
-    var hege = ["Cecilie", "Lone"];
-    var stale = ["Emil", "Tobias", "Linus"];
-    var children = hege.concat(stale); 
-    console.log(children);
+  var hege = ["Cecilie", "Lone"];
+  var stale = ["Emil", "Tobias", "Linus"];
+  var children = hege.concat(stale);
+  console.log(children);
 
+<<<<<<< HEAD
+  //====================================================================================
+  console.log(
+    "================================constructor==================================="
+  );
+  /*Definición y uso
+=======
    
 
      //====================================================================================
     console.log("================================constructor===================================");
      /*Definición y uso
+>>>>>>> release/Componentes
     En JavaScript, la propiedad devuelve la función constructora de un objeto.constructor
 
     El valor devuelto es una referencia a la función, no el nombre de la función:
@@ -49,25 +74,29 @@ function App() {
 
     Para las cadenas de JavaScript, la propiedad constructor devuelve la función String() á [código nativo]
 
-    Puede utilizar la propiedad constructor para comprobar si una variable es una matriz.*/ 
-    
-    var paises =["El Salvador", "Costa Rica", "Suiza", "Alemania", "Rusia"];
-    console.log(paises);
+    Puede utilizar la propiedad constructor para comprobar si una variable es una matriz.*/
 
-    //====================================================================================
-    console.log("================================copyWithin()==================================");
-    /*Definición y uso
+  var paises = ["El Salvador", "Costa Rica", "Suiza", "Alemania", "Rusia"];
+  console.log(paises);
+
+  //====================================================================================
+  console.log(
+    "================================copyWithin()=================================="
+  );
+  /*Definición y uso
     El método copia los elementos de matriz en otra posición de la matriz, sobrescribiendo los valores existentes.copyWithin()
 
     Este método nunca agregará más elementos a la matriz.
 
     Nota: este método sobrescribe la matriz original. */
-    var paises2 = ["China", "Japon", "Finlandia", "Irlanda", "Canada"];
-    console.log(paises2.copyWithin(2,0));
+  var paises2 = ["China", "Japon", "Finlandia", "Irlanda", "Canada"];
+  console.log(paises2.copyWithin(2, 0));
 
-    //====================================================================================
-    console.log("================================entries()==================================");
-    /*Definición y uso
+  //====================================================================================
+  console.log(
+    "================================entries()=================================="
+  );
+  /*Definición y uso
     El método devuelve un objeto Iterator de matriz con pares clave/valor.entries()
 
     Para cada elemento de la matriz original, el nuevo objeto de iteración contendrá una matriz con el índice como clave y el valor del elemento como valor:
@@ -78,12 +107,14 @@ function App() {
     [3, "Mango"]
 
     Nota: Este método no cambia la matriz original. */
-    var amigos= ["Milly", "Regi", "Jesus", "Vanessa"];
-    console.log(Object.entries(amigos));
+  var amigos = ["Milly", "Regi", "Jesus", "Vanessa"];
+  console.log(Object.entries(amigos));
 
-    //====================================================================================
-    console.log("================================every()==================================");
-    /*Definición y uso
+  //====================================================================================
+  console.log(
+    "================================every()=================================="
+  );
+  /*Definición y uso
     El método comprueba si todos los elementos de una matriz pasan una prueba (proporcionada como una función).every()
 
     El método every() ejecuta la función una vez para cada elemento presente en la matriz:
@@ -93,29 +124,53 @@ function App() {
     Nota: every() no ejecuta la función para elementos de matriz sin valores.
 
     Nota: every() no cambia la matriz original */
-    const age = (currentValue) => currentValue < 30; //si el numero es mayor que todos los numeros del arregls siempre sera true.
-    var edad =[26, 28, 24, 25];
-    console.log(edad.every(age));
+  const age = (currentValue) => currentValue < 30; //si el numero es mayor que todos los numeros del arregls siempre sera true.
+  var edad = [26, 28, 24, 25];
+  console.log(edad.every(age));
 
-    //====================================================================================
-    console.log("================================fill()==================================");
-    /*Definición y uso
+  //====================================================================================
+  console.log(
+    "================================fill()=================================="
+  );
+  /*Definición y uso
     El método rellena los elementos especificados en una matriz con un valor estático.fill()
 
     Puede especificar la posición de dónde iniciar y finalizar el relleno. Si no se especifica, se rellenarán todos los elementos.
 
     Nota: este método sobrescribe la matriz original. */
-    var celulares= ["Samsung", "Huawei", "Apple", "Xiaomi"];
-    console.log(celulares.fill("one Plus",3, 4)); //Estudiarlo!!!!!!!!!!!!!!!!!!!!!!!!! 
+  var celulares = ["Samsung", "Huawei", "Apple", "Xiaomi"];
+  console.log(celulares.fill("one Plus", 3, 4)); //Estudiarlo!!!!!!!!!!!!!!!!!!!!!!!!!
 
-    //====================================================================================
-    console.log("================================filter()==================================");
-    /*Definición y uso
+  //====================================================================================
+  console.log(
+    "================================filter()=================================="
+  );
+  /*Definición y uso
     El método filter() crea una matriz llena de todos los elementos de matriz que pasan una prueba (proporcionada como una función).
 
     Nota: filter() no ejecuta la función para elementos de matriz sin valores.
 
     Nota: filter() no cambia la matriz original. */
+<<<<<<< HEAD
+  const libros = [
+    "Multiverso",
+    "Padre Rico, Padre Pobre",
+    "La Vaca",
+    "Harrison",
+    "Celulas Madres",
+    "Telomeros",
+  ];
+
+  const result = libros.filter((libros) => libros.length > 6);
+
+  console.log(result);
+
+  //====================================================================================
+  console.log(
+    "==================================find()================================="
+  );
+  /*Definición y uso
+=======
     const libros = ['Multiverso', 'Padre Rico, Padre Pobre', 'La Vaca', 'Harrison', 'Celulas Madres', 'Telomeros'];
 
     const result = libros.filter(libros => libros.length > 6);
@@ -128,6 +183,7 @@ function App() {
     //====================================================================================
     console.log("==================================find()=================================");
     /*Definición y uso
+>>>>>>> release/Componentes
     El método devuelve el valor del primer elemento de una matriz que pasa una prueba (proporcionada como una función).find()
 
     El método find() ejecuta la función una vez para cada elemento presente en la matriz:
@@ -137,15 +193,17 @@ function App() {
     Nota: find() no ejecuta la función para matrices vacías.
 
     Nota: find() no cambia la matriz original.   */
-    const array1 = [5, 12, 8, 130, 44];
+  const array1 = [5, 12, 8, 130, 44];
 
-    const found = array1.find(element => element > 10);
+  const found = array1.find((element) => element > 10);
 
-    console.log(found);
+  console.log(found);
 
-    //====================================================================================
-    console.log("==================================findIndex()=================================");
-    /*Definición y uso
+  //====================================================================================
+  console.log(
+    "==================================findIndex()================================="
+  );
+  /*Definición y uso
     El método devuelve el índice del primer elemento de una matriz que pasa una prueba (proporcionada como una función).findIndex()
 
     El método findIndex() ejecuta la función una vez para cada elemento presente en la matriz:
@@ -156,35 +214,40 @@ function App() {
 
     Nota: findIndex() no cambia la matriz original.  */
 
-    const array2 = [5, 12, 8, 130, 44];
+  const array2 = [5, 12, 8, 130, 44];
 
-    const isLargeNumber = (element) => element > 13;
+  const isLargeNumber = (element) => element > 13;
 
-    console.log(array2.findIndex(isLargeNumber));
+  console.log(array2.findIndex(isLargeNumber));
 
-    
-    //====================================================================================
-   
-    console.log("==================================forEach()=================================");
-     /*Definición y uso
+  //====================================================================================
+
+  console.log(
+    "==================================forEach()================================="
+  );
+  /*Definición y uso
     El método llama a una función una vez para cada elemento de una matriz, en orden.forEach()
 
     Nota: la función no se ejecuta para elementos de matriz sin valores. */
-    const abecedario = ['a', 'b', 'c'];
+  const abecedario = ["a", "b", "c"];
 
-    abecedario.forEach(element => console.log(element));
+  abecedario.forEach((element) => console.log(element));
 
-    //==========================================from==========================================
-    console.log("==================================from()=================================");
-    /*Definición y uso
+  //==========================================from==========================================
+  console.log(
+    "==================================from()================================="
+  );
+  /*Definición y uso
     El método Array.from() devuelve un objeto Array de cualquier objeto con una propiedad length o un objeto iterable. */
 
-    var abecedario2 = Array.from("ABCDEFG");
-    console.log(abecedario2);
+  var abecedario2 = Array.from("ABCDEFG");
+  console.log(abecedario2);
 
-     //====================================================================================
-     console.log("==================================includes()=================================");
-     /*Definición y uso
+  //====================================================================================
+  console.log(
+    "==================================includes()================================="
+  );
+  /*Definición y uso
       El método includes() determina si una matriz contiene un elemento especificado.
 
      Este método devuelve true si la matriz contiene el elemento y false si no.
@@ -193,22 +256,24 @@ function App() {
 
       */
 
-     const numeros = [1, 2, 3];
+  const numeros = [1, 2, 3];
 
-    console.log(numeros.includes(2));
-    // se espera como resultado true
+  console.log(numeros.includes(2));
+  // se espera como resultado true
 
-    const animales = ['cat', 'dog', 'bat'];
+  const animales = ["cat", "dog", "bat"];
 
-    console.log(animales.includes('cat'));
-    // se espera como resultado true
+  console.log(animales.includes("cat"));
+  // se espera como resultado true
 
-    console.log(animales.includes('at'));
-    // se espera como resultado false
-    
-     //====================================================================================
-     console.log("==================================indexOf()=================================");
-     /*Definición y uso
+  console.log(animales.includes("at"));
+  // se espera como resultado false
+
+  //====================================================================================
+  console.log(
+    "==================================indexOf()================================="
+  );
+  /*Definición y uso
     El método indexOf() busca en la matriz el elemento especificado y devuelve su posición.
 
     La búsqueda comenzará en la posición especificada, o al principio si no se especifica ninguna posición inicial, y finalizará la búsqueda al final de la matriz.
@@ -221,55 +286,65 @@ function App() {
 
     Consejo: Si desea buscar de extremo a principio, utilice el método lastIndexOf() */
 
-    var sistemas = ["Linux", "Window", "Mac", "IOS"];
-    var a = sistemas.indexOf("Android");
-    console.log(a);
+  var sistemas = ["Linux", "Window", "Mac", "IOS"];
+  var a = sistemas.indexOf("Android");
+  console.log(a);
 
-    //====================================================================================
-    console.log("==================================isArray()=================================");
-    /*Definición y uso
+  //====================================================================================
+  console.log(
+    "==================================isArray()================================="
+  );
+  /*Definición y uso
     El método isArray() determina si un objeto es una matriz.
 
     Esta función devuelve true si el objeto es una matriz y false si no. */
-    var herramientas= ["taladro", "pulidora", "Multimetro", "Amperimetro"];
-    console.log(Array.isArray(herramientas));
+  var herramientas = ["taladro", "pulidora", "Multimetro", "Amperimetro"];
+  console.log(Array.isArray(herramientas));
 
-    //====================================================================================
-    console.log("==================================join()=================================");
-    /*Definición y uso
+  //====================================================================================
+  console.log(
+    "==================================join()================================="
+  );
+  /*Definición y uso
     El método devuelve la matriz como una cadena.join()
 
     Los elementos se separarán mediante un separador especificado. El separador predeterminado es coma (,).
 
     Nota: este método no cambiará la matriz original. */
 
-    var universidades= ["Ues", "Utec", "Uca", "Ufg"];
-    var energy = universidades.join();
-    console.log(energy);
+  var universidades = ["Ues", "Utec", "Uca", "Ufg"];
+  var energy = universidades.join();
+  console.log(energy);
 
-    //====================================================================================
-    console.log("==================================keys()=================================");
-    /*Definición y uso
+  //====================================================================================
+  console.log(
+    "==================================keys()================================="
+  );
+  /*Definición y uso
     El método devuelve un objeto Array Iterator con las claves de una matriz.keys()
 
     Nota: este método no cambia la matriz original. */
-    const arrayabc = ['a', 'b', 'c'];
-    const iterator = arrayabc.keys();
-    
-    for (const key of iterator) {
-      console.log(key);
-    }
-    
-    //====================================================================================
-    console.log("==================================length()=================================");
-    /*Definición y uso
-    La propiedad establece o devuelve el número de elementos de una matriz.length */
-    var cantidadfruta = ["Banana", "Orange", "Apple", "Mango"];
-    console.log(cantidadfruta.length);
+  const arrayabc = ["a", "b", "c"];
+  const iterator = arrayabc.keys();
 
-    //====================================================================================
-    console.log("==================================lastIndexOf()=================================");
-      /*Definición y uso
+  for (const key of iterator) {
+    console.log(key);
+  }
+
+  //====================================================================================
+  console.log(
+    "==================================length()================================="
+  );
+  /*Definición y uso
+    La propiedad establece o devuelve el número de elementos de una matriz.length */
+  var cantidadfruta = ["Banana", "Orange", "Apple", "Mango"];
+  console.log(cantidadfruta.length);
+
+  //====================================================================================
+  console.log(
+    "==================================lastIndexOf()================================="
+  );
+  /*Definición y uso
        El método lastIndexOf() busca en la matriz el elemento especificado y devuelve su posición.
 
       La búsqueda comenzará en la posición especificada, o al final si no se especifica ninguna posición inicial, y finalizará la búsqueda al principio de la matriz.
@@ -279,12 +354,14 @@ function App() {
       Si el elemento que se va a buscar está presente más de una vez, el lastIndexOf método devuelve la posición de la última aparición.
 
       Consejo: Si desea buscar de principio a fin, utilice el método indexOf() */
-    var fruits77 = ["Banana", "Orange", "Apple", "Mango"];
-    console.log(fruits77.lastIndexOf("Apple"));
+  var fruits77 = ["Banana", "Orange", "Apple", "Mango"];
+  console.log(fruits77.lastIndexOf("Apple"));
 
-    //====================================================================================
-    console.log("==================================map()=================================");
-    /*Definición y uso
+  //====================================================================================
+  console.log(
+    "==================================map()================================="
+  );
+  /*Definición y uso
     El método crea una nueva matriz con los resultados de llamar a una función para cada elemento de matriz.map()
 
     El método llama a la función proporcionada una vez para cada elemento de una matriz, en orden.map()
@@ -292,6 +369,31 @@ function App() {
     Nota: no ejecuta la función para elementos de matriz sin valores.map()
 
     Nota: este método no cambia la matriz original. */
+<<<<<<< HEAD
+  var numbers = [4, 9, 16, 25];
+  var x = numbers.map(Math.sqrt);
+  console.log(x);
+
+  //así lo haría
+
+  numbers.map((data, index) => {
+    console.log(
+      `Estamos en el elemento ${index}, su valor es ${data} y su raiz cuadrada es ${Math.sqrt(
+        data
+      )}`
+    );
+  });
+
+  //====================================================================================
+  console.log(
+    "==================================pop()================================="
+  );
+  var fruits5 = ["Banana", "Orange", "Apple", "Mango"];
+  console.log(fruits5.pop());
+  //====================================================================================
+  //console.log("==================================prototype()=================================");
+  /*nstructor prototipo permite agregar nuevas propiedades y métodos al objeto Array().
+=======
     var numbers = [4, 9, 16, 25];
     var x = numbers.map(Math.sqrt);
     console.log(x);
@@ -315,6 +417,7 @@ function App() {
     //====================================================================================
     //console.log("==================================prototype()=================================");
     /*nstructor prototipo permite agregar nuevas propiedades y métodos al objeto Array().
+>>>>>>> release/Componentes
 
     Al construir una propiedad, TODAS las matrices tendrán la propiedad y su valor, como valor predeterminado.
 
@@ -323,8 +426,8 @@ function App() {
     Nota: Array.prototype no hace referencia a una sola matriz, sino al propio objeto Array().
 
     Nota: Prototype es un constructor de objetos global que está disponible para todos los objetos JavaScript. */
-                                                  // Arreglar!!!!!!!!
-    /* Array.prototype.myUcase = function() {
+  // Arreglar!!!!!!!!
+  /* Array.prototype.myUcase = function() {
         var i;
         for (i = 0; i < this.length; i++) {
           this[i] = this[i].toUpperCase();
@@ -335,10 +438,13 @@ function App() {
         var personas = ["Andrea", "Karla", "Rocio", "Angela"];
         console.log(personas.myUcase());
       }
-     */ 
-    //====================================================================================
-    console.log("==================================push()=================================");
-    /*Definición y uso
+     */
+
+  //====================================================================================
+  console.log(
+    "==================================push()================================="
+  );
+  /*Definición y uso
     El método push() agrega nuevos elementos al final de una matriz y devuelve la nueva longitud.
 
     Nota: Los nuevos elementos se agregarán al final de la matriz.
@@ -347,11 +453,13 @@ function App() {
 
     Consejo: Para añadir elementos al principio de una matriz, utilice el método unshift(). */
 
-    var fruitas23 = ["Banana", "Orange", "Apple", "Mango"];
-    console.log(fruitas23.push("Kiwi", "Fresa"));
-    //====================================================================================
-    console.log("==================================reduce()=================================");
-    /*Definición y uso
+  var fruitas23 = ["Banana", "Orange", "Apple", "Mango"];
+  console.log(fruitas23.push("Kiwi", "Fresa"));
+  //====================================================================================
+  console.log(
+    "==================================reduce()================================="
+  );
+  /*Definición y uso
     El método reduce la matriz a un solo valor.reduce()
 
     El método ejecuta una función proporcionada para cada valor de la matriz (de izquierda a derecha). reduce()
@@ -361,19 +469,19 @@ function App() {
     Nota: no ejecuta la función para elementos de matriz sin valores. reduce()
 
     Nota: este método no cambia la matriz original. */
-    const array12345 = [1, 2, 3, 4];
-    const reducer = (accumulator, currentValue) => accumulator + currentValue;
-    
-    // 1 + 2 + 3 + 4
-    console.log(array12345.reduce(reducer));
-    // expected output: 10
-    
-    // 5 + 1 + 2 + 3 + 4
-    console.log(array12345.reduce(reducer, 5));
-    // expected output: 15
-    //====================================================================================
-    //console.log("==================================reduceRight()=================================");
-   /* Definición y uso
+  const array12345 = [1, 2, 3, 4];
+  const reducer = (accumulator, currentValue) => accumulator + currentValue;
+
+  // 1 + 2 + 3 + 4
+  console.log(array12345.reduce(reducer));
+  // expected output: 10
+
+  // 5 + 1 + 2 + 3 + 4
+  console.log(array12345.reduce(reducer, 5));
+  // expected output: 15
+  //====================================================================================
+  //console.log("==================================reduceRight()=================================");
+  /* Definición y uso
     El método reduce Elmétodo reduce la matriz a un único valor.
 
     El método reduceRight() ejecuta una función proporcionada para cada valor de la matriz (de derecha a izquierda).
@@ -389,28 +497,32 @@ function App() {
     return total - num;
     }
    */
-    //====================================================================================
-    console.log("==================================reverse()=================================");
-    /*Definición y uso
+  //====================================================================================
+  console.log(
+    "==================================reverse()================================="
+  );
+  /*Definición y uso
     El método invierte el orden de los elementos de una matriz.reverse()
 
     Nota: este método cambiará la matriz original. */
 
-    const array66 = ['one', 'two', 'three'];
-    console.log('array1:', array1);
-    // expected output: "array1:" Array ["one", "two", "three"]
+  const array66 = ["one", "two", "three"];
+  console.log("array1:", array1);
+  // expected output: "array1:" Array ["one", "two", "three"]
 
-    const reversed = array66.reverse();
-    console.log('reversed:', reversed);
-    // expected output: "reversed:" Array ["three", "two", "one"]
+  const reversed = array66.reverse();
+  console.log("reversed:", reversed);
+  // expected output: "reversed:" Array ["three", "two", "one"]
 
-    // Careful: reverse is destructive -- it changes the original array.
-    console.log('array1:', array66);
-    // expected output: "array1:" Array ["three", "two", "one"]
+  // Careful: reverse is destructive -- it changes the original array.
+  console.log("array1:", array66);
+  // expected output: "array1:" Array ["three", "two", "one"]
 
-    //====================================================================================
-    console.log("==================================shift()=================================");
-    /*Definición y uso
+  //====================================================================================
+  console.log(
+    "==================================shift()================================="
+  );
+  /*Definición y uso
       El método quita el primer elemento de una matriz.shift()
 
       Nota: Este método cambia la longitud de la matriz.
@@ -422,35 +534,38 @@ function App() {
       Nota: este método cambiará la matriz original.
 
  */
-    var miPescado = ['ángel', 'payaso', 'mandarín', 'cirujano'];
+  var miPescado = ["ángel", "payaso", "mandarín", "cirujano"];
 
-    console.log('miPescado antes: ' + miPescado);
-    // "miPescado antes: ángel,payaso,mandarín,cirujano"
+  console.log("miPescado antes: " + miPescado);
+  // "miPescado antes: ángel,payaso,mandarín,cirujano"
 
-    var eliminado = miPescado.shift(); 
+  var eliminado = miPescado.shift();
 
-    console.log('miPescado después: ' + miPescado); 
-    // "miPescado after: payaso,mandarín,cirujano" 
+  console.log("miPescado después: " + miPescado);
+  // "miPescado after: payaso,mandarín,cirujano"
 
-    console.log('Elemento eliminado: ' + eliminado); 
-    // "Elemento eliminado: ángel"
+  console.log("Elemento eliminado: " + eliminado);
+  // "Elemento eliminado: ángel"
 
-
-    //====================================================================================
-    console.log("==================================slice()=================================");
-      /*Definición y uso
+  //====================================================================================
+  console.log(
+    "==================================slice()================================="
+  );
+  /*Definición y uso
       El método slice() devuelve los elementos seleccionados en una matriz, como un nuevo objeto de matriz.
 
       El método slice() selecciona los elementos que comienzan en el argumento start dado y termina en el argumento end dado, pero no incluye.
 
       Nota: La matriz original no se cambiará. */
-    var cadena1 = "La mañana se nos echa encima.";
-    var cadena2 = cadena1.slice(3, -2);
-    console.log(cadena2); 
+  var cadena1 = "La mañana se nos echa encima.";
+  var cadena2 = cadena1.slice(3, -2);
+  console.log(cadena2);
 
-    //====================================================================================
-    console.log("==================================some()=================================");
-    /*Definición y uso
+  //====================================================================================
+  console.log(
+    "==================================some()================================="
+  );
+  /*Definición y uso
       El método some() comprueba si alguno de los elementos de una matriz supera una prueba (proporcionada como función).
 
       El método some() ejecuta la función una vez para cada elemento presente en la matriz:
@@ -460,17 +575,19 @@ function App() {
       Nota: some() no ejecuta la función para elementos de matriz sin valores.
 
       Nota: some() no cambia la matriz original. */
-    const array = [1, 2, 3, 4, 5];
+  const array = [1, 2, 3, 4, 5];
 
-    // checks whether an element is even
-    const even = (element) => element % 2 === 0;
+  // checks whether an element is even
+  const even = (element) => element % 2 === 0;
 
-    console.log(array.some(even));
-    // expected output: true
+  console.log(array.some(even));
+  // expected output: true
 
-    //====================================================================================
-    console.log("==================================sort()=================================");
-    /*Definición y uso
+  //====================================================================================
+  console.log(
+    "==================================sort()================================="
+  );
+  /*Definición y uso
       El método sort() ordena los elementos de una matriz.
 
       El criterio de ordenación puede ser alfabético o numérico, y ascendente (arriba) o descendente (abajo).
@@ -484,77 +601,77 @@ function App() {
       Puede solucionar esto proporcionando una "función de comparación" (consulte "Valores de parámetro" a continuación).
 
       Nota: Este método cambia la matriz original. */
-    var number12 = [4, 2, 5, 1, 3];
-    number12.sort(function(a, b) {
+  var number12 = [4, 2, 5, 1, 3];
+  number12.sort(function (a, b) {
     return a - b;
-    });
-    console.log(number12);
-    //====================================================================================
-    console.log("==================================splice()=================================");
-    /*Definición y uso
+  });
+  console.log(number12);
+  //====================================================================================
+  console.log(
+    "==================================splice()================================="
+  );
+  /*Definición y uso
       El método splice() agrega/elimina elementos a/desde una matriz y devuelve los elementos eliminados.
 
       Nota: Este método cambia la matriz original. */
 
-    const meses = ['Jan', 'March', 'April', 'June'];
-    meses.splice(1, 0, 'Feb');
-    // inserts at index 1
-    console.log(meses);
-    // expected output: Array ["Jan", "Feb", "March", "April", "June"]
+  const meses = ["Jan", "March", "April", "June"];
+  meses.splice(1, 0, "Feb");
+  // inserts at index 1
+  console.log(meses);
+  // expected output: Array ["Jan", "Feb", "March", "April", "June"]
 
-    meses.splice(4, 1, 'May');
-    // replaces 1 element at index 4
-    console.log(meses);
-    // expected output: Array ["Jan", "Feb", "March", "April", "May"]
+  meses.splice(4, 1, "May");
+  // replaces 1 element at index 4
+  console.log(meses);
+  // expected output: Array ["Jan", "Feb", "March", "April", "May"]
 
-    //====================================================================================
-    console.log("==================================toString()=================================");
-    /*Definición y uso
+  //====================================================================================
+  console.log(
+    "==================================toString()================================="
+  );
+  /*Definición y uso
       El método devuelve una cadena con todos los valores de matriz, separados por comas.toString()
 
       Nota: Este método no cambiará la matriz original. */
-    var transporte = ["Carro", "Bus", "Tren", "Avion"];
-    var x2 = transporte.toString();
-    console.log(x2);
+  var transporte = ["Carro", "Bus", "Tren", "Avion"];
+  var x2 = transporte.toString();
+  console.log(x2);
 
-    //====================================================================================
-    console.log("==================================unshift()=================================");
-    /*Definición y uso
+  //====================================================================================
+  console.log(
+    "==================================unshift()================================="
+  );
+  /*Definición y uso
       El método unshift() agrega nuevos elementos al principio de una matriz y devuelve la nueva longitud.
 
       Nota: Este método cambia la longitud de una matriz.
 
       Consejo: Para agregar nuevos elementos al final de una matriz, utilice el método push(). */
-    var profesiones = ["Ing civil", "Ing Sistemas", "Medicina", "Ing Industrial"];
-    console.log(profesiones.unshift("Lic Administracion","Lic Economia"));
+  var profesiones = ["Ing civil", "Ing Sistemas", "Medicina", "Ing Industrial"];
+  console.log(profesiones.unshift("Lic Administracion", "Lic Economia"));
 
-    //====================================================================================
-    console.log("==================================valuOf()=================================");
-      /*Definición y uso
+  //====================================================================================
+  console.log(
+    "==================================valuOf()================================="
+  );
+  /*Definición y uso
       El método valueOf() devuelve la matriz.
 
       Este método es el método predeterminado del objeto de matriz. Array.valueOf() devolverá lo mismo que Array
 
       Nota: Este método no cambiará la matriz original. */
-    var colegios = ["Ricaldone", "Don Bosco", "Alemana", "Panamericana"];
-     console.log(colegios.valueOf());
+  var colegios = ["Ricaldone", "Don Bosco", "Alemana", "Panamericana"];
+  console.log(colegios.valueOf());
 
-
-
-    return (<div className = "App">
-        <header className = "App-header">
-
-        <p> Edit <code> src / App.js </code> and save to reload. </p>
-       -1 La variable es {num}  
-       <h1>Mostrando el nombre de {carlos} </h1> 
-
-
-      
-        </header> 
-       
-        </div>
-    );
-
+  return (
+    <div className="App">
+      <header className="App-header">
+        -1 La variable es {num}
+        <strong>Mostrando el nombre de {carlos} </strong>
+      </header>
+    </div>
+  );
 }
 
 export default App;
