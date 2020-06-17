@@ -12,6 +12,7 @@ import React from 'react'
 
 
     console.log(reducer);
+    
     return (<div className = "Reduce">
     <header className = "Reduce-header">
 
