@@ -1,14 +1,31 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import "./index.css";
-import App from "./App";
-import * as serviceWorker from "./serviceWorker";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+//import App from './App';
+import Main from './views/main';
+//import Maps from './components/maps';
+//import Filter from './components/filter';
+//import Reduce from './components/reduce';
+import Hooks from './components/hooks';
+
+import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById("root")
+
+    <React.StrictMode >
+
+   {/* <App/> */}
+  {/* <Main/> */}
+   {/* <Maps/> */}
+     {/* <Filter/> */}
+     {/* <Reduce/> */}
+     <Hooks/> 
+
+
+    
+
+    </React.StrictMode>,
+    document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change

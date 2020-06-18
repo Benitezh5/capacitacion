@@ -5,6 +5,7 @@ import "./App.css";
 function App() {
   console.log("Visualizando cambio");
 
+<<<<<<< HEAD
   var carlos = "Humberto, segundo cambio";
   //Matriz
   //====================================================================================
@@ -20,6 +21,26 @@ function App() {
     "================================== Concat ==================================="
   );
   /* 
+=======
+ 
+    var carlos ="Carlos";
+    //Matriz
+    //====================================================================================
+    console.log("================================= Matriz =====================================");
+    var num = "Hola Carlos";
+    var matriz = [1, 3, 3, 4, 5, 6, 7, 8, 9, 10];
+    console.log(matriz);
+
+    var numbers = [4, 9, 16, 25];
+    var x = numbers.map(Math.sqrt);
+    console.log(x);
+
+   
+    //====================================================================================
+    
+    console.log("================================== Concat ===================================");
+    /* 
+>>>>>>> release/Componentes
     Definición y uso
     El método se utiliza para unir dos o más matrices.concat()
     Este método no cambia las matrices existentes, pero devuelve una nueva matriz, que contiene los valores de las matrices unidas.
@@ -30,11 +51,19 @@ function App() {
   var children = hege.concat(stale);
   console.log(children);
 
+<<<<<<< HEAD
   //====================================================================================
   console.log(
     "================================constructor==================================="
   );
   /*Definición y uso
+=======
+   
+
+     //====================================================================================
+    console.log("================================constructor===================================");
+     /*Definición y uso
+>>>>>>> release/Componentes
     En JavaScript, la propiedad devuelve la función constructora de un objeto.constructor
 
     El valor devuelto es una referencia a la función, no el nombre de la función:
@@ -122,6 +151,7 @@ function App() {
     Nota: filter() no ejecuta la función para elementos de matriz sin valores.
 
     Nota: filter() no cambia la matriz original. */
+<<<<<<< HEAD
   const libros = [
     "Multiverso",
     "Padre Rico, Padre Pobre",
@@ -140,6 +170,20 @@ function App() {
     "==================================find()================================="
   );
   /*Definición y uso
+=======
+    const libros = ['Multiverso', 'Padre Rico, Padre Pobre', 'La Vaca', 'Harrison', 'Celulas Madres', 'Telomeros'];
+
+    const result = libros.filter(libros => libros.length > 6);
+
+    console.log(result);
+
+
+
+
+    //====================================================================================
+    console.log("==================================find()=================================");
+    /*Definición y uso
+>>>>>>> release/Componentes
     El método devuelve el valor del primer elemento de una matriz que pasa una prueba (proporcionada como una función).find()
 
     El método find() ejecuta la función una vez para cada elemento presente en la matriz:
@@ -325,6 +369,7 @@ function App() {
     Nota: no ejecuta la función para elementos de matriz sin valores.map()
 
     Nota: este método no cambia la matriz original. */
+<<<<<<< HEAD
   var numbers = [4, 9, 16, 25];
   var x = numbers.map(Math.sqrt);
   console.log(x);
@@ -348,6 +393,31 @@ function App() {
   //====================================================================================
   //console.log("==================================prototype()=================================");
   /*nstructor prototipo permite agregar nuevas propiedades y métodos al objeto Array().
+=======
+    var numbers = [4, 9, 16, 25];
+    var x = numbers.map(Math.sqrt);
+    console.log(x);
+
+    //////////////carlos
+    numbers.map((data, index) => {
+      console.log(
+        `Estamos en el elemento ${index}, su valor es ${data} y su raiz cuadrada es ${Math.sqrt(
+          data
+        )}`
+      );
+    });
+
+
+    //====================================================================================
+    console.log("==================================pop()=================================");
+    var fruits5 = ["Banana", "Orange", "Apple", "Mango"];
+    console.log(fruits5.pop());
+
+   
+    //====================================================================================
+    //console.log("==================================prototype()=================================");
+    /*nstructor prototipo permite agregar nuevas propiedades y métodos al objeto Array().
+>>>>>>> release/Componentes
 
     Al construir una propiedad, TODAS las matrices tendrán la propiedad y su valor, como valor predeterminado.
 
