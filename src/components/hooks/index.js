@@ -3,6 +3,9 @@ import React,{useState,useEffect} from 'react';
 var contador = 0;
 
 
+ 
+export default ;
+
 const Hooks = () => {
     //Todos los hooks se ejecutan aca.
 
@@ -43,3 +46,4 @@ export default Hooks;
 //renderiza, busca cambio, despues vuelve a renderizar
 //componente montadous
 //useState es como ejemplo de ajax estudiarlo! 
+

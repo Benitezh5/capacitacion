@@ -6,8 +6,8 @@ import Main from './views/main';
 //import Maps from './components/maps';
 //import Filter from './components/filter';
 //import Reduce from './components/reduce';
-import Hooks from './components/hooks';
-
+//import Hooks from './components/hooks';
+import Axios from './components/axios';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
@@ -19,7 +19,8 @@ ReactDOM.render(
    {/* <Maps/> */}
      {/* <Filter/> */}
      {/* <Reduce/> */}
-     <Hooks/> 
+     {/* <Hooks/> */}
+      <Axios/> 
 
 
     
