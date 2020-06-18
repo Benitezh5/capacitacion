@@ -20,26 +20,6 @@ function App() {
     "================================== Concat ==================================="
   );
   /* 
-=======
- 
-    var carlos ="Carlos";
-    //Matriz
-    //====================================================================================
-    console.log("================================= Matriz =====================================");
-    var num = "Hola Carlos";
-    var matriz = [1, 3, 3, 4, 5, 6, 7, 8, 9, 10];
-    console.log(matriz);
-
-    var numbers = [4, 9, 16, 25];
-    var x = numbers.map(Math.sqrt);
-    console.log(x);
-
-   
-    //====================================================================================
-    
-    console.log("================================== Concat ===================================");
-    /* 
->>>>>>> release/Componentes
     Definición y uso
     El método se utiliza para unir dos o más matrices.concat()
     Este método no cambia las matrices existentes, pero devuelve una nueva matriz, que contiene los valores de las matrices unidas.
